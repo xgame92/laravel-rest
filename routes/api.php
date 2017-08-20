@@ -30,7 +30,7 @@ Route::group(['prefix' => 'v1'], function (){
         'uses' => 'AuthController@store'
     ]);
 
-    Route::post('user/registration',[
+    Route::post('user/signin',[
         'uses' => 'AuthController@signin'
     ]);
 });

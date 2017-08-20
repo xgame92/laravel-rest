@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Meeting;
 use App\User;
-
+use JWTAuth;
 class RegistrationController extends Controller
 {
     public function __construct()
